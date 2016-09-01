@@ -10,14 +10,15 @@
 
 .logo {
     width: 150px;
-    height: 51px;
-    background: url("../images/logo.png") center no-repeat;
-    background-size: contain;
-    display: block;
-    /*margin: 30px auto 0 auto;*/
+    height: 50px;
+    padding-top: 30px;
     margin: 0 auto;
-    /*background-position-y: 30px;*/
 }
+
+.logo::after {
+    content:url("../images/logo.png");
+}
+
 
 .title {
     font-size: 72px;
