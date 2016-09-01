@@ -1,5 +1,20 @@
 var helloit = helloit || {};
 
+
+helloit.createHeader = function(title, subTitle) {
+
+    return $('<div class="row header"></div>')
+        .append($('<div class="logo"></div>'))
+        .append($('<div class="title"></div>')
+            .append(title)
+        )
+        .append($('<div class="subtitle"></div>')
+            .append(subTitle)
+        );
+
+};
+
+
 helloit.createNavbar = function () {
 
     return $('\

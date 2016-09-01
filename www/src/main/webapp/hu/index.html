@@ -11,21 +11,12 @@
 </head>
 <body>
     <div id="mainDiv" class="container-fluid">
-        <div class="row header">
-            <div class="logo"></div>
-            <div class="title">
-                Junior Java
-            </div>
-            <div class="subtitle">
-                web-programozó képzés
-            </div>
-        </div>
 
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <div class="menu">
-                    <div class="menuitem" style="float:left; width:320px">Junior Java web-programozó képzés</div>
+                    <div class="menuitem" style="float:left; width:320px">Junior Java WEB programozó képzés</div>
                     <div class="menuitem" style="float:right; width:150px">Rólunk</div>
                     <div class="menuitem" style="float:right; width:150px">Galéria</div>
                     <div class="menuitem" style="float:right; width:150px">Kapcsolat</div>
@@ -65,7 +56,7 @@
                     <input type="text" id="name" name="name" placeholder="név"/>
                     <input type="text" id="email" name="email" placeholder="e-mail cim"/>
                     <input type="text" id="phone" name="phone" placeholder="telefon szám"/>
-                    <label><input type="file" id="cv" name="cv"style="display: none"/>CV feltoltés</label>
+                    <label><input type="file" id="cv" name="cv" style="display: none"/>CV feltoltés</label>
                     <button type="submit">JELENTKEZES</button>
                 </form>
             </div>
@@ -78,9 +69,10 @@
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
     <script src="../js/vendor/bootstrap.min.js" type="text/javascript"></script>
     <script src="../js/vendor/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
+    <script src="../js/hu/locale.js" type="text/javascript"></script>
     <script src="../js/common.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $("#mainDiv").prepend(helloit.createNavbar());
+        $("#mainDiv").prepend(helloit.createHeader(helloit.i18n.course1Title, helloit.i18n.course1SubTitle));
 
         $(function () {
 
