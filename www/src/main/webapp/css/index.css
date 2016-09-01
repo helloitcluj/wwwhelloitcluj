@@ -1,11 +1,3 @@
-div {
-    /*border: black 1px solid;*/
-}
-
-body {
-    margin: 0;
-    font-family: "Arial Unicode MS";
-}
 .header {
     height: 570px;
     background-color: #ff6000;
