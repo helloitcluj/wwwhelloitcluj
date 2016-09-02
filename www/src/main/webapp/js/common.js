@@ -17,29 +17,28 @@ helloit.createHeader = function(title, subTitle) {
 
 helloit.createNavbar = function () {
 
-    return $('\
-    <div class="row">\
-    <div class="col-md-3"></div>\
-    <nav class="navbar navbar-light col-md-9 menu">\
-        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">\
-            &#9776;\
-        </button>\
-        <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">\
-          <ul class="nav navbar-nav">\
-            <li class="nav-item menuitem">\
-              <a class="nav-link" href="index.html">Junior Java WEB programozó képzés</a>\
-            </li>\
-            <li class="nav-item menuitem">\
-              <a class="nav-link" href="#">Kapcsolat</a>\
-            </li>\
-            <li class="nav-item menuitem">\
-              <a class="nav-link" href="#">Galéria</a>\
-            </li>\
-            <li class="nav-item menuitem">\
-              <a class="nav-link" href="#">Rólunk</a>\
-            </li>\
-          </ul>\
-        </div>\
-    </nav>\
-    ');
+    var $data = $([
+        {ref: 'index.html', caption: 'Junior Java WEB programozó képzés'},
+        {ref: 'index.html', caption: 'Kapcsolat'},
+        {ref: 'index.html', caption: 'Galéria'},
+        {ref: 'index.html', caption: 'Rólunk'}
+    ]);
+
+    var $list = $('<ul class="nav navbar-nav"></ul>');
+
+    $data.each( function () {
+        $list.append($('<li class="nav-item menuitem"></li>')
+            .append($('<a class="nav-link"></a>')
+                .attr('href', this.ref)
+                .append(this.caption)));
+    });
+
+    return $('<div class="row"></div>')
+        .append($('<div class="col-md-3"></div>'))
+        .append($('<nav class="navbar navbar-light col-md-9 menu"></nav>')
+            .append($('<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>'))
+            .append($('<div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2"></div>')
+                .append($list)
+            )
+        );
 };
