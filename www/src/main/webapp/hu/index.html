@@ -15,18 +15,6 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <div class="menu">
-                    <div class="menuitem" style="float:left; width:320px">Junior Java WEB programozó képzés</div>
-                    <div class="menuitem" style="float:right; width:150px">Rólunk</div>
-                    <div class="menuitem" style="float:right; width:150px">Galéria</div>
-                    <div class="menuitem" style="float:right; width:150px">Kapcsolat</div>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
                 <div class="contentheader1">Junior Java WEB programozó képzés</div>
 
                 <div class="contentheader2">Milyen tudást ad a képzés?</div>
@@ -72,7 +60,9 @@
     <script src="../js/hu/locale.js" type="text/javascript"></script>
     <script src="../js/common.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $("#mainDiv").prepend(helloit.createHeader(helloit.i18n.course1Title, helloit.i18n.course1SubTitle));
+        $("#mainDiv")
+            .prepend(helloit.createNavbar())
+            .prepend(helloit.createHeader(helloit.i18n.course1Title, helloit.i18n.course1SubTitle));
 
         $(function () {
 

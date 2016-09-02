@@ -15,8 +15,11 @@
     margin: 0 auto;
 }
 
-.logo::after {
-    content:url("../images/logo.png");
+.logo div {
+    height: 50px;
+    width: 150px;
+    background:url("../images/logo.png");
+    background-size: contain;
 }
 
 
@@ -25,7 +28,7 @@
     font-weight: 300;
     text-align: center;
     color: #ffffff;
-    padding-top: 121px;
+    padding-top: 151px;
 }
 
 .subtitle {
@@ -36,20 +39,32 @@
 }
 
 .menu {
-    height: 70px;
-    padding: 0;
-    font-size: 16px;
-    font-weight: 600;
+    margin-top: -96px;
+}
+
+.menu button {
     color: #ffffff;
-    margin-top: -70px;
-    min-width: 780px; /*todo introduce hamburger icon*/
+    margin-top: 27px;
+    margin-bottom: 22px;
+}
+
+.menu .nav {
+    min-width: 760px;
 }
 
 .menuitem {
-    height: 100%;
     text-align: center;
     line-height: 70px;
     border-top: 3px solid transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 150px;
+    margin-left: 0 !important;
+}
+
+.menuitem a {
+    font-weight: 600;
+    color: #ffffff !important;
 }
 
 .menuitem:hover {
