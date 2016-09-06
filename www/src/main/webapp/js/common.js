@@ -25,18 +25,18 @@ helloit.createHeader = function(title, subTitle) {
 helloit.createLanguageChooser = function() {
     return $('\
     <div class="language-chooser pull-xs-right">\
-    <span>Romana</span>\
+    <span>Română</span>\
     <div>\
-        <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
+        <button type="button" role="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
         </button>\
         <ul class="dropdown-menu">\
-            <li><a href="#">Romana</a></li>\
+            <li><a href="#">Română</a></li>\
             <li><a href="#">English</a></li>\
         </ul>\
     </div>\
     </div>\
     ');
-}
+};
 
 
 helloit.createNavbar = function () {
