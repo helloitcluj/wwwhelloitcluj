@@ -4,11 +4,13 @@ var helloit = helloit || {};
 helloit.createHeader = function(title, subTitle) {
 
     return $('<div class="row header"></div>')
-        .append($('<div class="col-xs-3 col-md-4"></div>'))
-        .append($('<div class="col-xs-6 col-md-4 logo"></div>')
+        .append($('<div class="col-xs-4 col-md-5"></div>'))
+        .append($('<div class="col-xs-4 col-md-2 logo"></div>')
             .append($('<div><div></div></div>'))
         )
-        .append($('<div class="col-xs-3 col-md-1 language-chooser">Magyar</div>'))
+        .append($('<div class="col-xs-4 col-md-2"></div>')
+            .append(helloit.createLanguageChooser())
+        )
         .append($('<div class="col-md-3"></div>'))
         .append($('<div class="title"></div>')
             .append(title)
@@ -18,6 +20,24 @@ helloit.createHeader = function(title, subTitle) {
         );
 
 };
+
+
+helloit.createLanguageChooser = function() {
+    return $('\
+    <div class="language-chooser pull-xs-right">\
+    <span>Romana</span>\
+    <div>\
+        <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
+        </button>\
+        <ul class="dropdown-menu">\
+            <li><a href="#">Romana</a></li>\
+            <li><a href="#">English</a></li>\
+        </ul>\
+    </div>\
+    </div>\
+    ');
+}
+
 
 helloit.createNavbar = function () {
 
