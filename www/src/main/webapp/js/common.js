@@ -4,7 +4,12 @@ var helloit = helloit || {};
 helloit.createHeader = function(title, subTitle) {
 
     return $('<div class="row header"></div>')
-        .append($('<div class="logo"><div></div></div>'))
+        .append($('<div class="col-xs-3 col-md-4"></div>'))
+        .append($('<div class="col-xs-6 col-md-4 logo"></div>')
+            .append($('<div><div></div></div>'))
+        )
+        .append($('<div class="col-xs-3 col-md-1 language-chooser">Magyar</div>'))
+        .append($('<div class="col-md-3"></div>'))
         .append($('<div class="title"></div>')
             .append(title)
         )
@@ -13,7 +18,6 @@ helloit.createHeader = function(title, subTitle) {
         );
 
 };
-
 
 helloit.createNavbar = function () {
 
