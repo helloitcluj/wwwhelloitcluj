@@ -28,6 +28,7 @@ helloit.createLanguageChooser = function() {
     <span>Română</span>\
     <div>\
         <button type="button" role="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
+            <span class="chevron"></span>\
         </button>\
         <ul class="dropdown-menu">\
             <li><a href="#">Română</a></li>\
