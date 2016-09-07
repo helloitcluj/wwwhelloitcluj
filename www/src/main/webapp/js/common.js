@@ -92,14 +92,23 @@ helloit.createLanguageChooser = function() {
         );
 };
 
+helloit.formatTitle = function (title, subTitle) {
+    var result = title;
+
+    if (subTitle) {
+        result = result + ", " + subTitle
+    }
+
+    return result;
+};
 
 helloit.createNavbar = function () {
 
     var $data = $([
-        {ref: 'index.html', caption: 'Junior Java WEB programozó képzés'},
-        {ref: 'index.html', caption: 'Kapcsolat'},
-        {ref: 'index.html', caption: 'Galéria'},
-        {ref: 'index.html', caption: 'Rólunk'}
+        {ref: 'index.html', caption: helloit.i18n.course1FullTitle},
+        {ref: 'index.html', caption: helloit.i18n.contact},
+        {ref: 'index.html', caption: helloit.i18n.gallery},
+        {ref: 'index.html', caption: helloit.i18n.aboutUs}
     ]);
 
     var $list = $('<ul class="nav navbar-nav"></ul>');
