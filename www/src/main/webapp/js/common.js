@@ -25,7 +25,7 @@ helloit.createHeader = function(title, subTitle) {
 helloit.createLanguageChooser = function() {
     return $('\
     <div class="language-chooser pull-xs-right">\
-    <span>Română</span>\
+    <span>Magyar</span>\
     <div>\
         <button type="button" role="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
             <span class="chevron"></span>\
