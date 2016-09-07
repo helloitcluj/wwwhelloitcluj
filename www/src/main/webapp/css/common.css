@@ -52,10 +52,10 @@ body {
     outline: none;
 }
 
-.language-chooser span {
+.language-chooser > span {
     color: #ffffff;
     font-weight: 300;
-    padding-right: 0;
+    padding-right: 3px;
 }
 
 .language-chooser div {
@@ -84,6 +84,7 @@ body {
 .chevron {
     display: block;
     margin-top: -7px;
+    color: #ffffff;
 }
 
 .chevron::before {

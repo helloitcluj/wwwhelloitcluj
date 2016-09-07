@@ -1,5 +1,41 @@
 var helloit = helloit || {};
 
+helloit.i18n.languages = {
+    "en": {
+        name : "English"
+    },
+    "hu": {
+        name : "Magyar"
+    },
+    "ro": {
+        name : "Română"
+    }
+};
+
+helloit.i18n.defaultLanguage = "en";
+
+
+helloit.getCurrentLangId = function () {
+
+    if (!helloit.i18n.currentLanguage) {
+
+        var pathPieces = window.location.pathname.split("/");
+
+        for (var i = 0; i < pathPieces.length; i++) {
+            var pathPiece = pathPieces[i];
+            if (pathPiece in helloit.i18n.languages) {
+                helloit.i18n.currentLanguage = pathPiece;
+                break;
+            }
+        }
+
+        if (!helloit.i18n.currentLanguage) {
+            helloit.i18n.currentLanguage = helloit.i18n.defaultLanguage;
+        }
+    }
+
+    return helloit.i18n.currentLanguage;
+};
 
 helloit.createHeader = function(title, subTitle) {
 
@@ -23,20 +59,31 @@ helloit.createHeader = function(title, subTitle) {
 
 
 helloit.createLanguageChooser = function() {
-    return $('\
-    <div class="language-chooser pull-xs-right">\
-    <span>Magyar</span>\
-    <div>\
-        <button type="button" role="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\
-            <span class="chevron"></span>\
-        </button>\
-        <ul class="dropdown-menu">\
-            <li><a href="#">Română</a></li>\
-            <li><a href="#">English</a></li>\
-        </ul>\
-    </div>\
-    </div>\
-    ');
+
+    var currentLangId = helloit.getCurrentLangId();
+
+    var $list = $('<ul class="dropdown-menu"></ul>');
+    for(var langId in helloit.i18n.languages) {
+        //noinspection JSUnfilteredForInLoop
+        var language = helloit.i18n.languages[langId];
+
+        if (langId != currentLangId) {
+            $list.append($('<li></li>')
+                .append($('<a href="#"></a>')
+                    .append(language.name)
+                )
+            );
+        }
+    }
+
+    return $('<div class="language-chooser pull-xs-right"></div>')
+        .append( $('<span></span>')
+            .append(helloit.i18n.languages[currentLangId].name)
+        )
+        .append( $('<div></div>')
+            .append( $('<button type="button" role="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="chevron"></span></button>'))
+            .append( $list )
+        );
 };
 
 
