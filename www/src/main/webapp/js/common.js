@@ -37,6 +37,10 @@ helloit.getCurrentLangId = function () {
     return helloit.i18n.currentLanguage;
 };
 
+helloit.getAdaptedCurrentPath = function(langId) {
+    return window.location.pathname.replace("/" + helloit.getCurrentLangId() + "/", "/" + langId + "/");
+};
+
 helloit.createHeader = function(title, subTitle) {
 
     return $('<div class="row header"></div>')
@@ -68,8 +72,10 @@ helloit.createLanguageChooser = function() {
         var language = helloit.i18n.languages[langId];
 
         if (langId != currentLangId) {
+            //noinspection JSUnfilteredForInLoop
             $list.append($('<li></li>')
-                .append($('<a href="#"></a>')
+                .append($('<a></a>')
+                    .attr("href", helloit.getAdaptedCurrentPath(langId))
                     .append(language.name)
                 )
             );
