@@ -23,5 +23,12 @@ helloit.i18n = {
 \
         <div class="contentheader2">Hogyan műkődik a gyakorlatban?</div>\
         <div class="content">A képzés a gyakorlatra alapul és mindenkire személyesen külön figyelünk. Mindennek elmondjuk az elméleti hátterét, de ki is próbálja mindenki gyakorlatban is, kódot írva. A munkahelyi körülményekhez hasonlóan itt is csapatban “dolgoztok”, hogy </div>\
-    ')
+    '),
+    registrationTitle : "Jelentkezés",
+    nameField : "név",
+    emailField : "e-mail cím",
+    phoneNumberField : "telefon szám",
+    uploadCVField : "CV feltöltés",
+    registrationButton : "JELENTKEZÉS"
+
 };
