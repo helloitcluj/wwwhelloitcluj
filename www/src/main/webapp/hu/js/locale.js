@@ -30,6 +30,7 @@ helloit.i18n = {
     phoneNumberField : "telefon szám",
     uploadCVField : "CV feltöltés",
     registrationButton : "JELENTKEZÉS",
-    contactDescription : $('<div class="contentheader1">Kapcsolat</div>')
+    contactDescription : $('<div class="contentheader1">Kapcsolat</div>'),
+    aboutUsDescription : $('<div class="contentheader1">Rólunk</div>')
 
 };

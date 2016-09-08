@@ -30,6 +30,7 @@ helloit.i18n = {
     phoneNumberField : "phone number",
     uploadCVField : "CV upload",
     registrationButton : "REGISTRATION",
-    contactDescription : $('<div class="contentheader1">Contact</div>')
+    contactDescription : $('<div class="contentheader1">Contact</div>'),
+    aboutUsDescription : $('<div class="contentheader1">About us</div>')
 
 };

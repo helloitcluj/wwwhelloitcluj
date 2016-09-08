@@ -1,6 +1,7 @@
 var helloit = helloit || {};
 
 helloit.CONTACT_ANCHOR_TAG = "contact";
+helloit.ABOUT_US_ANCHOR_TAG = "about_us";
 
 helloit.i18n.languages = {
     "en": {
@@ -109,8 +110,8 @@ helloit.createNavbar = function () {
     var $data = $([
         {ref: "index.html", caption: helloit.i18n.course1FullTitle},
         {ref: "index.html#" + helloit.CONTACT_ANCHOR_TAG, caption: helloit.i18n.contact},
-        {ref: "index.html", caption: helloit.i18n.gallery},
-        {ref: "index.html", caption: helloit.i18n.aboutUs}
+        {ref: "index.html#", caption: helloit.i18n.gallery},
+        {ref: "index.html#" + helloit.ABOUT_US_ANCHOR_TAG, caption: helloit.i18n.aboutUs}
     ]);
 
     var $list = $('<ul class="nav navbar-nav"></ul>');
