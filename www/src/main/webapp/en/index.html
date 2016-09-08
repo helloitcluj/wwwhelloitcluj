@@ -22,10 +22,10 @@
     <script src="../js/index.js" type="text/javascript"></script>
     <script type="text/javascript">
         $("#mainDiv")
-            .prepend(helloit.createCourseRegistration())
-            .prepend(helloit.createCourseDescription(helloit.i18n.course1Description))
-            .prepend(helloit.createNavbar())
-            .prepend(helloit.createHeader(helloit.i18n.course1Title, helloit.i18n.course1SubTitle));
+            .append(helloit.createHeader(helloit.i18n.course1Title, helloit.i18n.course1SubTitle))
+            .append(helloit.createNavbar())
+            .append(helloit.createCourseDescription(helloit.i18n.course1Description))
+            .append(helloit.createCourseRegistration());
 
         $(function () {
 
