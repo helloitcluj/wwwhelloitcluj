@@ -31,7 +31,8 @@ helloit.i18n = {
     uploadCVField : "încãrcare CV",
     registrationButton : "ÎNSCRIERE",
     contactDescription : $('<div class="contentheader1">Contact</div>'),
-    aboutUsDescription : $('<div class="contentheader1">Despre noi</div>')
+    aboutUsDescription : $('<div class="contentheader1">Despre noi</div>'),
+    galleryDescription : $('<div class="contentheader1">Galerie foto</div>')
 
 
 };

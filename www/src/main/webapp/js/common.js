@@ -55,7 +55,8 @@ helloit.createHeader = function(title, subTitle) {
             .append(helloit.createLanguageChooser())
         )
         .append($('<div class="col-md-3"></div>'))
-        .append($('<div class="title"></div>')
+        .append($('<div></div>')
+            .attr("class", arguments.length < 2 ? "title single" : "title")
             .append(title)
         )
         .append($('<div class="subtitle"></div>')
@@ -110,7 +111,7 @@ helloit.createNavbar = function () {
     var $data = $([
         {ref: "index.html", caption: helloit.i18n.course1FullTitle},
         {ref: "index.html#" + helloit.CONTACT_ANCHOR_TAG, caption: helloit.i18n.contact},
-        {ref: "index.html#", caption: helloit.i18n.gallery},
+        {ref: "gallery.html", caption: helloit.i18n.gallery},
         {ref: "index.html#" + helloit.ABOUT_US_ANCHOR_TAG, caption: helloit.i18n.aboutUs}
     ]);
 
