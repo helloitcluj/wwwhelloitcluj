@@ -25,7 +25,9 @@
             .append(helloit.createHeader(helloit.i18n.course1Title, helloit.i18n.course1SubTitle))
             .append(helloit.createNavbar())
             .append(helloit.createGeneralDescription(helloit.i18n.course1Description))
-            .append(helloit.createCourseRegistration());
+            .append(helloit.createCourseRegistration())
+            .append(helloit.createAnchor(helloit.CONTACT_ANCHOR_TAG))
+            .append(helloit.createGeneralDescription(helloit.i18n.contactDescription));
 
         $(function () {
 
