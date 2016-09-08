@@ -2,12 +2,12 @@ var helloit = helloit || {};
 
 helloit.i18n = {
     course1Title : 'Junior Java',
-    course1SubTitle : 'WEB programming course',
-    course1FullTitle : 'Junior Java WEB programming course',
+    course1SubTitle : 'WEB developer course',
+    course1FullTitle : 'Junior Java WEB developer course',
     contact : 'Contact',
-    gallery : 'Gallery',
+    gallery : 'Photo gallery',
     aboutUs : 'About us',
-    course1Description : $('<div class="contentheader1">Junior Java WEB programming course</div>\
+    course1Description : $('<div class="contentheader1">Junior Java WEB developer course</div>\
         <div class="contentheader2">Milyen tudást ad a képzés?</div>\
         <div class="content">A képzés a programozás alapjait, a web programozáshoz általános és egy ismert, gyakran használt technológiájának elméleti és gyakorlati információit adja át.</div>\
         <div class="content">A tudás hasznossága kb egy év munkahelyi tapasztalattal ér fel. Amennyi tapasztalatot tudnál szerezni egy év alatt, nulláról indulva, de a projektre koncentrálva. Itt miután az egyéni fejlődésedre figyelünk ezeket az ismereteket gyorsabban megtanulhatod.</div>\

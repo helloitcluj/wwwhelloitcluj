@@ -5,7 +5,7 @@ helloit.i18n = {
     course1SubTitle : 'WEB programozó képzés',
     course1FullTitle : 'Junior Java WEB programozó képzés',
     contact : 'Kapcsolat',
-    gallery : 'Galéria',
+    gallery : 'Fénykép galéria',
     aboutUs : 'Rólunk',
     course1Description : $('<div class="contentheader1">Junior Java WEB programozó képzés</div>\
         <div class="contentheader2">Milyen tudást ad a képzés?</div>\
