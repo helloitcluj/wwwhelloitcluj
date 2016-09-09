@@ -8,21 +8,21 @@ helloit.i18n = {
     gallery : 'Photo gallery',
     aboutUs : 'About us',
     course1Description : $('<div class="contentheader1">Junior Java WEB developer course</div>\
-        <div class="contentheader2">Milyen tudást ad a képzés?</div>\
-        <div class="content">A képzés a programozás alapjait, a web programozáshoz általános és egy ismert, gyakran használt technológiájának elméleti és gyakorlati információit adja át.</div>\
-        <div class="content">A tudás hasznossága kb egy év munkahelyi tapasztalattal ér fel. Amennyi tapasztalatot tudnál szerezni egy év alatt, nulláról indulva, de a projektre koncentrálva. Itt miután az egyéni fejlődésedre figyelünk ezeket az ismereteket gyorsabban megtanulhatod.</div>\
+        <div class="contentheader2">What knowledge is offered by the training?</div>\
+        <div class="content">The training is giving the basis of software development, the theory and the practice of the web development in general and a wide used technology of it.</div>\
+        <div class="content">The usage of the knowledge is equivalent with (about) one year work experience, what you could acquire in one year at the workplace, but where the project life is important, not your’s skills development.</div>\
 \
-        <div class="contentheader2">Előképzettség?</div>\
-        <div class="content">A képzés nem igényel előzetes programozási tudást. Logikus gondolkodás viszont segít. Elvárjuk, hogy a képzést komolyan vegyétek, ne lógjatok az órákról.</div>\
+        <div class="contentheader2">Preliminary Qualifications?</div>\
+        <div class="content">The training is not requiring any software development knowledge, but the logical thinking is an advantage. We claim to attend the classes.</div>\
 \
-        <div class="contentheader2">Időtartam</div>\
-            <div class="content">Szeptember 5-én kezdődik és 160 órát tart. Hétfőn, szerdán és csütörtön délután 6-tól. </div>\
+        <div class="contentheader2">Period</div>\
+            <div class="content">It begins on September 5 and will last 160 hours. On Monday , Wednesday and Thursday from 6 pm.</div>\
 \
-        <div class="contentheader2">Tandíj</div>\
-            <div class="content">A képzés ára 750 euro és 3 részletben fizethető, minden hónap elején. Amennyiben hozol még csapattársakat, akkor adunk kedvezményt, minden csapattárs után 100 euro-val kell kebesebbet fizetned. Egy csoportban max 20 fő lehet.</div>\
+        <div class="contentheader2">Fees</div>\
+            <div class="content">The price for this training is 1000 euro and can be paid in three parts at the beginning of each months. We have a referral fee, you will pay 100 euro less for each additional colleague  you bring to the class. In each group will be maximum 20 persons.</div>\
 \
-        <div class="contentheader2">Hogyan műkődik a gyakorlatban?</div>\
-        <div class="content">A képzés a gyakorlatra alapul és mindenkire személyesen külön figyelünk. Mindennek elmondjuk az elméleti hátterét, de ki is próbálja mindenki gyakorlatban is, kódot írva. A munkahelyi körülményekhez hasonlóan itt is csapatban “dolgoztok”, hogy </div>\
+        <div class="contentheader2">How it works in reality?</div>\
+        <div class="content">The training is based on practice and we do pay attention on each student. We present the theoretical background as well, but most important is the code development. Everybody will write code and according to a workplace it will be organized in groups, teams.</div>\
     '),
     registrationTitle : "Registration",
     nameField : "name",
@@ -31,7 +31,9 @@ helloit.i18n = {
     uploadCVField : "CV upload",
     registrationButton : "REGISTRATION",
     contactDescription : $('<div class="contentheader1">Contact</div>'),
-    aboutUsDescription : $('<div class="contentheader1">About us</div>'),
+    aboutUsDescription : $('<div class="contentheader1">About us</div>\
+        <div class="content">We are working since more than 10 years in IT industry at small companies but at multinationals as well. We have been learning and we have used technologies out or order today, but we have been working in these days the most used technologies as well. In the last years we have introduced many starters into the software development secrets and we have kept hundreds of interviews. We have seen the the software developers with practical knowledge are very required by the market and based the the above experience we think that we can do the training as our main job.</div>\
+        <div class="content">The trainings are kept in a training room rented from the Sapientia University, star Matei Corvin nr 4 in Cluj-Napoca. The students will learn on laptops provided by HelloIT and to maintain your attention you can serve water and coffee.</div> '),
     galleryDescription : $('<div class="contentheader1">Photo gallery</div>')
 
 
