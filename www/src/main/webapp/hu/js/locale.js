@@ -14,15 +14,15 @@ helloit.i18n = {
 \
         <div class="contentheader2">Előképzettség?</div>\
         <div class="content">A képzés nem igényel előzetes programozási tudást. Logikus gondolkodás viszont segít. Elvárjuk, hogy a képzést komolyan vegyétek, ne lógjatok az órákról.</div>\
-\
+        <div class="content">Elvárjuk, hogy a képzést komolyan vegyétek, ne lógjatok az órákról.</div>\
         <div class="contentheader2">Időtartam</div>\
-            <div class="content">Szeptember 5-én kezdődik és 160 órát tart. Hétfőn, szerdán és csütörtön délután 6-tól. </div>\
+        <div class="content">Szeptember 5-én kezdődik és 160 órát tart. Hétfőn, szerdán és csütörtön délután 6-tól.</div>\
 \
         <div class="contentheader2">Tandíj</div>\
-            <div class="content">A képzés ára 750 euro és 3 részletben fizethető, minden hónap elején. Amennyiben hozol még csapattársakat, akkor adunk kedvezményt, minden csapattárs után 100 euro-val kell kebesebbet fizetned. Egy csoportban max 20 fő lehet.</div>\
+            <div class="content">A képzés ára 1000 euro és 3 részletben fizethető, minden hónap elején. Amennyiben hozol még csapattársakat, akkor adunk kedvezményt, minden csapattárs után 100 euro-val kell kebesebbet fizetned. Egy csoportban max 20 fő lehet.</div>\
 \
         <div class="contentheader2">Hogyan műkődik a gyakorlatban?</div>\
-        <div class="content">A képzés a gyakorlatra alapul és mindenkire személyesen külön figyelünk. Mindennek elmondjuk az elméleti hátterét, de ki is próbálja mindenki gyakorlatban is, kódot írva. A munkahelyi körülményekhez hasonlóan itt is csapatban “dolgoztok”, hogy </div>\
+        <div class="content">A képzés a gyakorlatra alapul és mindenkire személyesen külön figyelünk. Mindennek elmondjuk az elméleti hátterét, de ki is próbálja mindenki gyakorlatban is, kódot írva. A munkahelyi körülményekhez hasonlóan itt is csapatban “dolgoztok”.</div>\
     '),
     registrationTitle : "Jelentkezés",
     nameField : "név",
@@ -31,7 +31,10 @@ helloit.i18n = {
     uploadCVField : "CV feltöltés",
     registrationButton : "JELENTKEZÉS",
     contactDescription : $('<div class="contentheader1">Kapcsolat</div>'),
-    aboutUsDescription : $('<div class="contentheader1">Rólunk</div>'),
+    aboutUsDescription : $('<div class="contentheader1">Rólunk</div>\
+        <div class="content">Több mint 10 éve dolgozunk az IT iparban, kis cégben is, multinál is. Tanultunk és használtunk olyan technológiákat is, amelyek azóta már ritkán használtak, de a ma leghasználtabb technológiákat is évekig alkalmaztunk. Az utóbbi években nagyon sok kezdőt vezettünk be a programozás titkaiba, több száz interjút levezettünk. Lévén, hogy nagyon keresik a használható tudással rendelkező programozókat a fenti tapasztalaink alapján úgy gondoltuk, hogy tudnánk ezzel főállásban foglalkozni.</div>\
+        <div class="content">A képzéseket a Sapientia Egyetemtől bérelt teremben tartjuk a Bocskai házban, a Mátyás Király utca 4 szám alatt Kolozsváron. A diákok az általunk biztosított laptokokon gyakorolhatnak, s természetesen a figyelem fenntartásának érdekében kávét és vízet is lehet fogyasztani.</div> \
+    '),
     galleryDescription : $('<div class="contentheader1">Fénykép galéria</div>')
 
 };
