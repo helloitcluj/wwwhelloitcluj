@@ -8,7 +8,7 @@ helloit.createCourseRegistration = function() {
             .append($('<div class="contentheader2"></div>')
                 .append(helloit.i18n.registrationTitle)
             )
-            .append($('<form action="#"></form>')
+            .append($('<form action="../register.php" method="post" enctype="multipart/form-data" target="register-target"></form>')
                 .append(" ")
                 .append($('<input type="text" id="name" name="name"/>')
                     .attr("placeholder", helloit.i18n.nameField)
@@ -30,6 +30,7 @@ helloit.createCourseRegistration = function() {
                 .append($('<button type="submit"></button>')
                     .append(helloit.i18n.registrationButton))
             )
+            .append($('<iframe id="register-target" name="register-target" src="about:blank" style="width:0;height:0;border:0 solid #fff;visibility: hidden"></iframe>'))
         )
         .append($('<div class="col-md-3"></div>'));
 
