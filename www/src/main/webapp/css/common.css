@@ -209,3 +209,10 @@ body {
     padding-top: 24px;
 }
 
+.content a {
+    color: #ff6000;
+}
+
+.content a:hover {
+    color: #ad4400;
+}
