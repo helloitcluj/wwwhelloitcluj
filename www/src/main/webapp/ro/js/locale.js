@@ -16,10 +16,10 @@ helloit.i18n = {
         <div class="content">Participarea la training nu cere nici o formare tradinitoanalã in avans, dar gândirea logicã constituie un avantaj. Prezenţa la majoritatea orelor este obligatorie.</div>\
 \
         <div class="contentheader2">Perioada</div>\
-            <div class="content">Începe la 5 septembrie și va dura 160 de ore . Luni, miercuri și joi de la 6 seara.</div>\
+            <div class="content">Începe la sfârşitul lui septembrie și va dura 4 luni, in total 120 de ore: marti și joi de la 6 seara sãptãmânal și sâmbãtä de la 9 dimineaţa odatã la fiecare lunã.</div>\
 \
         <div class="contentheader2">Preţul</div>\
-            <div class="content">Preţul acestui curs este 1000 euro şi poate fi plãtit in trei rate, la începutul fiecãrui luni. Dacã aduci alţi participanţi la curs îţi dãm o reducere de 100 de euro pentru fiecare personã. În fiecare grupã pot fi maxim 20 de persoane.</div>\
+            <div class="content">Preţul acestui curs este 1000 euro şi poate fi plãtit in patru rate, la începutul fiecãrui luni. Dacã aduci alţi participanţi la curs îţi dãm o reducere de 100 de euro pentru fiecare personã. În fiecare grupã pot fi maxim 20 de persoane.</div>\
 \
         <div class="contentheader2">Cum funcţioneazã în realitate?</div>\
         <div class="content">Cursul este bazat pe practicã şi avem atenţie pentru fiecare participant separat. Prezentãm teoria a fiecãrui element predat, dar totul este încercat în practicã, scriind cod. Ca şi la locul de muncã şi la noi se “lucreazã" în echipã.</div>\

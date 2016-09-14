@@ -16,10 +16,10 @@ helloit.i18n = {
         <div class="content">The training is not requiring any software development knowledge, but the logical thinking is an advantage. We claim to attend the classes.</div>\
 \
         <div class="contentheader2">Period</div>\
-            <div class="content">It begins on September 5 and will last 160 hours. On Monday , Wednesday and Thursday from 6 pm.</div>\
+            <div class="content">It begins end of September and will last 4 months, in total 120 hours: on Tuesdays and Thursdays from 6 pm weekly and on Saturdays from 9 am one time each month.</div>\
 \
         <div class="contentheader2">Fees</div>\
-            <div class="content">The price for this training is 1000 euro and can be paid in three parts at the beginning of each months. We have a referral fee, you will pay 100 euro less for each additional colleague  you bring to the class. In each group will be maximum 20 persons.</div>\
+            <div class="content">The price for this training is 1000 euro and can be paid in four parts at the beginning of each months. We have a referral fee, you will pay 100 euro less for each additional colleague  you bring to the class. In each group will be maximum 20 persons.</div>\
 \
         <div class="contentheader2">How it works in reality?</div>\
         <div class="content">The training is based on practice and we do pay attention on each student. We present the theoretical background as well, but most important is the code development. Everybody will write code and according to a workplace it will be organized in groups, teams.</div>\

@@ -16,10 +16,10 @@ helloit.i18n = {
         <div class="content">A képzés nem igényel előzetes programozási tudást. Logikus gondolkodás viszont segít. Elvárjuk, hogy a képzést komolyan vegyétek, ne lógjatok az órákról.</div>\
         <div class="content">Elvárjuk, hogy a képzést komolyan vegyétek, ne lógjatok az órákról.</div>\
         <div class="contentheader2">Időtartam</div>\
-        <div class="content">Szeptember 5-én kezdődik és 160 órát tart. Hétfőn, szerdán és csütörtön délután 6-tól.</div>\
+        <div class="content">Szeptember végén kezdődik és 4 honapot tart, összesen 120 órát: kedden és csütörtön délután 6-tól hetente, ill. szombaton reggel 9-tõl honaponta egyszer.</div>\
 \
         <div class="contentheader2">Tandíj</div>\
-            <div class="content">A képzés ára 1000 euro és 3 részletben fizethető, minden hónap elején. Amennyiben hozol még csapattársakat, akkor adunk kedvezményt, minden csapattárs után 100 euro-val kell kebesebbet fizetned. Egy csoportban max 20 fő lehet.</div>\
+            <div class="content">A képzés ára 1000 euro és 4 részletben fizethető, minden hónap elején. Amennyiben hozol még csapattársakat, akkor adunk kedvezményt, minden csapattárs után 100 euro-val kell kebesebbet fizetned. Egy csoportban max 20 fő lehet.</div>\
 \
         <div class="contentheader2">Hogyan műkődik a gyakorlatban?</div>\
         <div class="content">A képzés a gyakorlatra alapul és mindenkire személyesen külön figyelünk. Mindennek elmondjuk az elméleti hátterét, de ki is próbálja mindenki gyakorlatban is, kódot írva. A munkahelyi körülményekhez hasonlóan itt is csapatban “dolgoztok”.</div>\
