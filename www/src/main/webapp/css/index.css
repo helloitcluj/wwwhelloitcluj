@@ -48,3 +48,7 @@
     background-color: #ff6000;
     border: none;
 }
+
+.contact form > * {
+    margin-right: 14px;
+}
