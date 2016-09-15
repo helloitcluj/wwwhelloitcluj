@@ -9,14 +9,14 @@ helloit.i18n = {
     aboutUs : 'Despre noi',
     course1Description : $('<div class="contentheader1">Curs programare WEB - Junior Java</div>\
         <div class="contentheader2">Ce oferã cursul?</div>\
-        <div class="content">La curs se poate învãţa bazele programãrii, o technologie specificã, dar foarte utilizatã a programárii WEB, dar şi bazele şi teoria acestuia.</div>\
+        <div class="content">La curs se poate învãţa bazele programãrii, o technologie specificã, dar foarte utilizatã a programãrii WEB, dar şi bazele şi teoria acestuia.</div>\
         <div class="content">Cunoştiinţele acumulate corespund cu experienţa de un an la un loc de muncã, unde evoluţia proiecului este obiectul, iar la noi evoluţia ta. Avem grijã de fiecare personã, astfel cunoştinţele pot fi adunate, învãţate mai repede.</div>\
 \
         <div class="contentheader2">Cunoştiinţe premilinare?</div>\
-        <div class="content">Participarea la training nu cere nici o formare tradinitoanalã in avans, dar gândirea logicã constituie un avantaj. Prezenţa la majoritatea orelor este obligatorie.</div>\
+        <div class="content">Participarea la training nu cere nici o formare tradiţioanalã in avans, dar gândirea logicã constituie un avantaj. Prezenţa la majoritatea orelor este obligatorie.</div>\
 \
         <div class="contentheader2">Perioada</div>\
-            <div class="content">Începe la sfârşitul lui septembrie și va dura 4 luni, in total 120 de ore: marti și joi de la 6 seara sãptãmânal și sâmbãtä de la 9 dimineaţa odatã la fiecare lunã.</div>\
+            <div class="content">Începe pe 11 Octombrie și va dura 4 luni, in total 120 de ore: marti și joi de la 6 seara sãptãmânal și sâmbãtä de la 9 dimineaţa odatã la fiecare lunã.</div>\
 \
         <div class="contentheader2">Preţul</div>\
             <div class="content">Preţul acestui curs este 1000 euro şi poate fi plãtit in patru rate, la începutul fiecãrui luni. Dacã aduci alţi participanţi la curs îţi dãm o reducere de 100 de euro pentru fiecare personã. În fiecare grupã pot fi maxim 20 de persoane.</div>\

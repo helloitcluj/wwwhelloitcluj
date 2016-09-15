@@ -14,9 +14,8 @@ helloit.i18n = {
 \
         <div class="contentheader2">Előképzettség?</div>\
         <div class="content">A képzés nem igényel előzetes programozási tudást. Logikus gondolkodás viszont segít. Elvárjuk, hogy a képzést komolyan vegyétek, ne lógjatok az órákról.</div>\
-        <div class="content">Elvárjuk, hogy a képzést komolyan vegyétek, ne lógjatok az órákról.</div>\
         <div class="contentheader2">Időtartam</div>\
-        <div class="content">Szeptember végén kezdődik és 4 hónapot tart, összesen 120 órát: kedden és csütörtön délután 6-tól hetente, ill. szombaton reggel 9-tõl hónaponta egyszer.</div>\
+        <div class="content">Október 11.-én kezdődik és 4 hónapot tart, összesen 120 órát: kedden és csütörtön délután 6-tól hetente, ill. szombaton reggel 9-tõl hónaponta egyszer.</div>\
 \
         <div class="contentheader2">Tandíj</div>\
             <div class="content">A képzés ára 1000 euro és 4 részletben fizethető, minden hónap elején. Amennyiben hozol még csapattársakat, akkor adunk kedvezményt, minden csapattárs után 100 euro-val kell kebesebbet fizetned. Egy csoportban max 20 fő lehet.</div>\
