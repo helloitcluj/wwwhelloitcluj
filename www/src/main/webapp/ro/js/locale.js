@@ -30,6 +30,7 @@ helloit.i18n = {
     phoneNumberField : "numãr telefon",
     uploadCVField : "încãrcare CV",
     registrationButton : "ÎNSCRIERE",
+    registrationSent : "Trimis",
     contactDescription : $('<div class="contentheader1">Contact</div>\
         <div class="content">Email: <a href="mailto:helloitcluj@gmail.com">helloitcluj@gmail.com</a><br/>Telefon: 0745 991 854<br/>Adresã: Matei Corvin 3, 400112, Cluj-Napoca<br/>Cãutaţi-ne pe <a href="https://www.facebook.com/HelloItCluj"><img style="width: 25px; height: 25px" src="../images/fb-logo.png" alt="facebook"/></a>!</div>'),
     aboutUsDescription : $('<div class="contentheader1">Despre noi</div>\
