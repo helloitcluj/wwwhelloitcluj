@@ -5,15 +5,15 @@ use Mailgun\Mailgun;
 
 # Instantiate the client.
 $mgClient = new Mailgun('key-841dd937c45ce511459d567a8b6e70ca');
-$domain = "sandbox2c4deebb987b400a829e4b5e6723b413.mailgun.org";
+$domain = "helloitcluj.ro";
 
 # Next, instantiate a Message Builder object from the SDK.
 $messageBldr = $mgClient->MessageBuilder();
 
 # Define the from address.
-$messageBldr->setFromAddress("postmaster@sandbox2c4deebb987b400a829e4b5e6723b413.mailgun.org", array("first"=>"www.helloitcluj.ro", "last" => "(no reply)"));
+$messageBldr->setFromAddress("no-reply@helloitcluj.ro", array("first"=>"www.helloitcluj.ro", "last" => "(no reply)"));
 # Define a to recipient.
-$messageBldr->addToRecipient("aron.sinoai@gmail.com");
+$messageBldr->addToRecipient("helloitcluj@gmail.com");
 # Define the subject.
 $messageBldr->setSubject("Automatic registration Java Junior Web Training");
 # Define the body of the message.
