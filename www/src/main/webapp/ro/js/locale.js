@@ -35,7 +35,8 @@ helloit.i18n = {
         <div class="content">Email: <a href="mailto:helloitcluj@gmail.com">helloitcluj@gmail.com</a><br/>Telefon: 0745 991 854<br/>Adresã: Matei Corvin 3, 400112, Cluj-Napoca<br/>Cãutaţi-ne pe <a href="https://www.facebook.com/HelloItCluj"><img style="width: 25px; height: 25px" src="../images/fb-logo.png" alt="facebook"/></a>!</div>'),
     aboutUsDescription : $('<div class="contentheader1">Despre noi</div>\
         <div class="content">Lucrãm mai mult de 10 ani in industria IT, şi la firme mici şi la multinaţionali. Am învãţat şi am folosit technologii care deja sunt mai puţin folosite, dar folosim de mulţi ani technologiile care sunt cele mai rãspândite în aceste zile. În ultimii ani am introdus mulţi începãtori în tainele programãrii, am ţinut mai multe sute de interviuri. Având în vedere cât de mult se cautã programatori cu experienţã utilã am decis sã ne ocupãm cu acesta ca şi activitate principlã.</div>\
-        <div class="content">Cursurile se ţin în sãlile de curs închiriate de la Universitatea Sapientia în Cluj-Napoca, str Matei Corvin nr 4. Cursanţii învaţã pe laptopurile noastre şi bine înţeles pentru a ajuta la menţinerea atenţiei cafea şi apã este la dispoziţia voastrã.</div>'),
+        <div class="content">Cursurile se ţin în sãlile de curs închiriate de la Universitatea Sapientia în Cluj-Napoca, str Matei Corvin nr 4. Cursanţii învaţã pe laptopurile noastre şi bine înţeles pentru a ajuta la menţinerea atenţiei cafea şi apã este la dispoziţia voastrã.</div>\
+        <div class="content">&nbsp;</div>'),
     galleryDescription : $('<div class="contentheader1">Galerie foto</div>')
 
 
