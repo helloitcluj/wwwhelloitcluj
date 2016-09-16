@@ -30,6 +30,7 @@ helloit.i18n = {
     uploadCVField : "CV feltöltés",
     registrationButton : "JELENTKEZÉS",
     registrationSent : "Elküldve",
+    registrationTryLater : "Kérjük próbálkozzon később!",
     contactDescription : $('<div class="contentheader1">Kapcsolat</div>\
         <div class="content">Email: <a href="mailto:helloitcluj@gmail.com">helloitcluj@gmail.com</a><br/>Telefonszám: 0745 991 854<br/>Cím: Matei Corvin 3, 400112, Kolozsvár<br/>Látogasson meg a <a href="https://www.facebook.com/HelloItCluj"><img style="width: 25px; height: 25px" src="../images/fb-logo.png" alt="facebook"/></a>-on!</div>'),
     aboutUsDescription : $('<div class="contentheader1">Rólunk</div>\

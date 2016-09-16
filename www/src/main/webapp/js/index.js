@@ -44,8 +44,17 @@ helloit.createCourseRegistration = function() {
 
 $(function () {
 
-    $("#register-form").submit( function() {
+    var $registerTarget = $("#register-target");
+    $registerTarget.load( function() {
+
         var $registerSlider = $("#register-slider");
+
+        if ($("#register-target").contents().find("body").contents().size() > 0) {
+            var $registerMessage = $registerSlider.find("span");
+            $registerMessage.empty();
+            $registerMessage.append(helloit.i18n.registrationTryLater)
+        }
+
         $registerSlider.attr("class", $registerSlider.attr("class") + " register-slided");
     });
 });
