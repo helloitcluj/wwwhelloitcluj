@@ -11,7 +11,26 @@ helloit.i18n = {
         <div class="contentheader2">What knowledge is offered by the training?</div>\
         <div class="content">The training is giving the basis of software development, the theory and the practice of the web development in general and a wide used technology of it.</div>\
         <div class="content">The usage of the knowledge is equivalent with (about) one year work experience, what you could acquire in one year at the workplace, but where the project life is important, not your’s skills development.</div>\
-\
+        <div class="contentheader2">Topics</div>\
+        <div class="content">\
+            <table class="table table-bordered"><tbody>\
+                <tr><td>java basics: packages, classes, members, main class, main method, lambdas, method references, streams</td></tr>\
+                <tr><td>web server: what is tcp/ip? sockets, http, html, mime types (jpeg, pdf, html, plain text, xml, json), java web container: tomcat, jetty</td></tr>\
+                <tr><td>databases: relational, no-sql, jdbc, native drivers</td></tr>\
+                <tr><td>spring: spring mvc, spring data JPA</td></tr>\
+                <tr><td>front-end: html, ccs3, javascript, ajax, one page application</td></tr>\
+                <tr><td>concurrency models; blocking vs. async</td></tr>\
+                <tr><td>back-end: servlets, rest-services</td></tr>\
+                <tr><td>test driven dev</td></tr>\
+                <tr><td>source control: git</td></tr>\
+                <tr><td>continuous integration: jenkins, gradle, maven</td></tr>\
+                <tr><td>IDE: intelliJ (mostly!), eclipse; debugging; visual vm</td></tr>\
+                <tr><td>proj mgm: task, subtasks, in progress, close, resolve, time spent</td></tr>\
+                <tr><td>working on a virtual projects: reading requirements, design, test, implement, document</td></tr>\
+                <tr><td>working with team members</td></tr>\
+                <tr><td>interview questions</td></tr>\
+            </tbody></table>\
+        </div>\
         <div class="contentheader2">Preliminary Qualifications?</div>\
         <div class="content">The training is not requiring any software development knowledge, but the logical thinking is an advantage. We claim to attend the classes.</div>\
 \

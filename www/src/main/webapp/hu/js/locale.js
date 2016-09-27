@@ -11,7 +11,26 @@ helloit.i18n = {
         <div class="contentheader2">Milyen tudást ad a képzés?</div>\
         <div class="content">A képzés a programozás alapjait, a web programozáshoz általános és egy ismert, gyakran használt technológiájának elméleti és gyakorlati információit adja át.</div>\
         <div class="content">A tudás hasznossága kb egy év munkahelyi tapasztalattal ér fel. Amennyi tapasztalatot tudnál szerezni egy év alatt, nulláról indulva, de a projektre koncentrálva. Itt miután az egyéni fejlődésedre figyelünk ezeket az ismereteket gyorsabban megtanulhatod.</div>\
-\
+        <div class="contentheader2">Tematika (angolul)</div>\
+        <div class="content">\
+            <table class="table table-bordered"><tbody>\
+                <tr><td>java basics: packages, classes, members, main class, main method, lambdas, method references, streams</td></tr>\
+                <tr><td>web server: what is tcp/ip? sockets, http, html, mime types (jpeg, pdf, html, plain text, xml, json), java web container: tomcat, jetty</td></tr>\
+                <tr><td>databases: relational, no-sql, jdbc, native drivers</td></tr>\
+                <tr><td>spring: spring mvc, spring data JPA</td></tr>\
+                <tr><td>front-end: html, ccs3, javascript, ajax, one page application</td></tr>\
+                <tr><td>concurrency models; blocking vs. async</td></tr>\
+                <tr><td>back-end: servlets, rest-services</td></tr>\
+                <tr><td>test driven dev</td></tr>\
+                <tr><td>source control: git</td></tr>\
+                <tr><td>continuous integration: jenkins, gradle, maven</td></tr>\
+                <tr><td>IDE: intelliJ (mostly!), eclipse; debugging; visual vm</td></tr>\
+                <tr><td>proj mgm: task, subtasks, in progress, close, resolve, time spent</td></tr>\
+                <tr><td>working on a virtual projects: reading requirements, design, test, implement, document</td></tr>\
+                <tr><td>working with team members</td></tr>\
+                <tr><td>interview questions</td></tr>\
+            </tbody></table>\
+        </div>\
         <div class="contentheader2">Előképzettség?</div>\
         <div class="content">A képzés nem igényel előzetes programozási tudást. Logikus gondolkodás viszont segít. Elvárjuk, hogy a képzést komolyan vegyétek, ne lógjatok az órákról.</div>\
         <div class="contentheader2">Időtartam</div>\
