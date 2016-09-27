@@ -54,7 +54,7 @@ helloit.i18n = {
         <div class="content">Avem o experienţă de peste 15 ani în IT, atât în companii mici, cât şi în multinaţionale. Am învăţat şi am folosit tehnologii mai vechi, dar avem o experienţă vastă şi cu cele actuale. În ultimii ani am introdus mulţi începători în tainele IT şi am intervievat sute de candidaţi. Ştiind că un programator bine pregătit este la mare căutare, pe baza experienţei noastre am decis ca formarea programatorilor să fie activitatea noastră principală.</div>\
         <div class="content">Cursurile se desfăşoară în săli închiriate de la Universitatea Sapientia, pe strada Matei Corvin nr. 4, în Cluj-Napoca. La cursuri se lucrează pe laptopurile noastre. Ca să vă menţinem trează atenţia, vă oferim cafea. Şi apă.</div>\
         <div class="content">&nbsp;</div>'),
-    galleryDescription : $('<div class="contentheader1">Galerie foto</div>')
-
+    galleryDescription : $('<div class="contentheader1">Galerie foto</div>'),
+    galleryCopyright: 'Fotografii realizate de Jakab Mónika'
 
 };

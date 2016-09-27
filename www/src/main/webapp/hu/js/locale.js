@@ -56,6 +56,7 @@ helloit.i18n = {
         <div class="content">Több mint 15 éve dolgozunk az IT iparban, kis cégben is, multinál is. Tanultunk és használtunk olyan technológiákat is, amelyek azóta már ritkán használtak, de a ma leghasználtabb technológiákat is évekig alkalmaztunk. Az utóbbi években nagyon sok kezdőt vezettünk be a programozás titkaiba, több száz interjút levezettünk. Lévén, hogy nagyon keresik a használható tudással rendelkező programozókat a fenti tapasztalaink alapján úgy gondoltuk, hogy tudnánk ezzel főállásban foglalkozni.</div>\
         <div class="content">A képzéseket a Sapientia Egyetemtől bérelt teremben tartjuk a Bocskai házban, a Mátyás Király utca 4 szám alatt Kolozsváron. A diákok az általunk biztosított laptokokon gyakorolhatnak, s természetesen a figyelem fenntartásának érdekében kávét és vízet is lehet fogyasztani.</div>\
         <div class="content">&nbsp;</div>'),
-    galleryDescription : $('<div class="contentheader1">Fénykép galéria</div>')
+    galleryDescription : $('<div class="contentheader1">Fénykép galéria</div>'),
+    galleryCopyright: 'A fényképeket készítette Jakab Mónika'
 
 };

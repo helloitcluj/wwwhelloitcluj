@@ -1,7 +1,8 @@
 var helloit = helloit || {};
 
 helloit.createCarousel = function() {
-    return $('\
+    return $('<div></div>')
+    .append('\
     <div class="row">\
         <div class="col-md-3"></div>\
         <div class="col-md-6">\
@@ -49,5 +50,15 @@ helloit.createCarousel = function() {
             </div>\
         </div>\
         <div class="col-md-3"></div>\
-    </div>');
+    </div>')
+    .append($('<div class="row"></div>')
+            .append($('<div class="col-md-3"></div>'))
+            .append($('<div class="col-md-6"></div>')
+                .append($('<div class="content pull-xs-right"></div>')
+                    .append(helloit.i18n.galleryCopyright)
+                )
+            )
+            .append($('<div class="col-md-3"></div>'))
+    )
+    .append($('<div class="content">&nbsp;</div>'));
 };
