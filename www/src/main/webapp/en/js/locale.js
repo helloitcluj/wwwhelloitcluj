@@ -35,7 +35,7 @@ helloit.i18n = {
         <div class="content">The training is not requiring any software development knowledge, but the logical thinking is an advantage. We claim to attend the classes.</div>\
 \
         <div class="contentheader2">Period</div>\
-            <div class="content">It begins on 11th of October and will last 4 months, in total 120 hours: on Tuesdays and Thursdays from 6 pm weekly and on Saturdays from 9 am one time each month.</div>\
+            <div class="content">It begins on 18th of October and will last 4 months, in total 120 hours: on Tuesdays and Thursdays from 6 pm weekly and on Saturdays from 9 am one time each month.</div>\
 \
         <div class="contentheader2">Fees</div>\
             <div class="content">The price for this training is 1000 euro and can be paid in four parts at the beginning of each months. We have a referral fee, you will pay 100 euro less for each additional colleague  you bring to the class. In each group will be maximum 20 persons.</div>\
@@ -58,7 +58,7 @@ helloit.i18n = {
         <div class="content">The trainings are kept in a training room rented from the Sapientia University, star Matei Corvin nr 4 in Cluj-Napoca. The students will learn on laptops provided by HelloIT and to maintain your attention you can serve water and coffee.</div>\
         <div class="content">&nbsp;</div>'),
     galleryDescription : $('<div class="contentheader1">Photo gallery</div>'),
-    galleryCopyright: 'Photos by Jakab Mónika'
+    galleryCopyright: 'Photos made by Jakab Mónika'
 
 
 };
